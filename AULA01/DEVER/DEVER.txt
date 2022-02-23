@@ -1,0 +1,7 @@
+w3school.com -> site de referência para HTML
+
+DEVER DE CASA
+
+Faça uma pesquisa sobre bitcoin, com pelo menos 2 .parágrafos e 1 imagem.
+
+Use negrito, itálico ou sublinhado em alguns termos.
