@@ -1,0 +1,5 @@
+Faça uma página com 2 listas, sendo uma ordenada com 3 links de texto, e outra não ordenada com 3 links de imagem. 
+
+-
+
+DESAFIO: retire os bullets (bolinhas) da lista com marcadores.

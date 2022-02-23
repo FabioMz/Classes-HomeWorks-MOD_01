@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas e CSS</title>
+    <style type="text/css">
+        h3 {
+            color: mediumorchid;
+            font-weight: lighter;
+        }
+
+        ol {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        /* # é a representação de um id */
+        #destaque,
+        #destaque2 {
+            font-weight: bolder;
+            font-style: italic;
+        }
+
+        #destaque {
+            color: red;
+        }
+
+        #destaque2 {
+            color: orange;
+        }
+
+        /* o "." identifica uma classe */
+        .destaqueAzul {
+            color: navy;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body style="background-color: lemonchiffon;">
+
+    <h3 style="color:#ff06b4; font-size: 18pt;">Lista Ordenada</h3>
+    <!-- https://color.adobe.com/pt/create site da adobe para pegar cores-->
+    <ol>
+        <li id="destaque">Arroz</li>
+        <li id="destaque2">feijão</li>
+        <li>Ovo</li>
+    </ol>
+
+    <h3>Lista com marcadores (não ordenada)</h3>
+    <ul>
+        <li>Fiat</li>
+        <li>Ford</li>
+        <li>GM</li>
+    </ul>
+
+    <h3>Lista com sub nível</h3>
+    <ol>
+        <li class="destaqueAzul">Primeiro item</li>
+        <li>
+            Segundo item
+            <ul>
+                <li class="destaqueAzul">Uma opção</li>
+                <li>Outra opção</li>
+            </ul>
+        </li>
+        <li>Terceiro item</li>
+    </ol>
+
+</body>
+
+</html>
