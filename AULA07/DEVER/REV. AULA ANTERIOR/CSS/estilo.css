@@ -1,0 +1,17 @@
+th{
+    background-color: gray;
+    box-shadow: 1px 1px 1px lightgray;
+}
+
+td{                   /* \/ esfumaçado */
+    box-shadow: 2px 2px 1px lightgray;
+    /*   direita ^  ^ baixo */
+
+    /* sombra em textos text-shadow */
+}
+
+.diaAlerta, table a{
+    color:red;
+    background-color: gray;
+    text-decoration: none;
+}

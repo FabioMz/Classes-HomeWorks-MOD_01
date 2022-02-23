@@ -1,0 +1,4 @@
+﻿
+DEVER DE CASA
+REPRODUZA o calendário de Setembro de 2022 com tabela.
+Destaque os domingos com negrito e feriados com a cor vermelha.

@@ -1,0 +1,129 @@
+/* Geral Início */
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Geral Fim */
+
+/* Cabeçalho Início */
+
+.cabeça {
+    display: flex;
+    padding: 20px;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1d1e20;
+}
+
+.cabeça a:hover {
+    color: lightslategray;
+}
+
+#home {
+    padding: 10px;
+    display: block;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    padding: 10px;
+    display: block;
+}
+
+/* Cabeçalho Fim */
+
+/* Corpo Início */
+
+.corpo {
+    display: grid;
+    row-gap: 10px;
+    padding: 10px;
+    column-gap: 10px; 
+    font-size: 1.5rem;
+    background-color: whitesmoke;
+    grid-template-columns: auto auto auto;    
+}
+
+.corpo article {
+    padding: 50px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.corpo a:hover {
+    color: lightslategray;
+}
+
+.destaque a, .materia a {
+    color: #1d1e20; 
+}
+
+.destaque {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: solid #1d1e20;    
+}
+
+.destaque a {
+    font-size: 5rem;
+}
+
+.materia {
+    border: solid #1d1e20;
+}
+
+/* Corpo Fim */
+
+/* Rodapé Início */
+
+.rodape {
+    padding: 20px;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1d1e20;
+}
+
+.info {
+    display: flex;
+    text-align: center;
+}
+
+.info li {
+    margin: auto;    
+    color: white;
+}
+
+/* Rodapé Fim */
+
+
+
+
+
+
+

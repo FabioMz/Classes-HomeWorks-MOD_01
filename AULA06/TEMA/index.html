@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+
+    <table>
+        <tr> <!-- tr = table row, linha da tabela -->
+             <td>Brasil</td> <td>Argentina</td> 
+             <!--td = table data, dados da tabela -->
+        </tr>
+        <tr>
+            <td>1</td> <td>1</td>
+        </tr>
+    </table>
+
+    <hr/>
+    <!-- hr = horizontal row, linha horizontal -->
+
+    <table>
+        <tr>
+            <th>Produto</th> <th>Preço</th>
+            <!-- th = table header, cabeçalho de tabela -->
+        </tr>
+        <tr>
+            <td>X-tudo</td> <td> R$ 14,00</td>
+        </tr>
+        <tr>
+            <td>Dogão</td> <td> R$ 11,00</td>
+        </tr>
+        <tr>
+            <td>Refri</td> <td> R$ 8,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">VOLTE SEMPRE</td>
+            <!-- colspan =  columns span, abranger colunas.
+            quantas colunas ocupa a célula -->
+        </tr>
+    </table>    
+
+    <hr/>
+    
+    <table>
+        <tbody> <!--tbody = corpo da tabela-->
+            <tr>
+                <th>Instrumento</th> <th>Tipo</th> <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Violão</td> <td>Cordas</td> <td>R$ 850,00</td>
+            </tr>
+            <tr>
+                <td>Flauta</td> <td>Sopro</td> <td>R$ 3.900,00</td>
+            </tr>
+        </tbody>
+        <tfoot><!--tfoot = rodapé da tabela-->
+            <tr>
+                <td colspan="3">Preços sujeitos à alterações</td>
+            </tr>
+        </tfoot>
+        <thead><!--thead = cabeçalho da tabela-->
+            <tr>
+                <td colspan="3">Instrumentos do Zé</td>
+            </tr>
+        </thead>
+    </table>
+
+    <hr/>
+
+    <table>
+        <tr>
+            <td rowspan="2">Fiat</td> <td>Palio</td>
+        </tr>
+        <tr>
+            <td>Uno</td>
+        </tr>
+        <tr>
+            <td>GM</td> <td>Chevette</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Ford</th> <td>Verona</td>
+        </tr>
+        <tr>
+            <td>Del Rey</td>
+        </tr>
+
+        <tr>
+            <td>Escort</td>
+        </tr>
+    </table>
+</body>
+<style>
+    table, td{
+        border: 1px solid black;
+    }
+    table{
+        background-color: black;
+    }
+    td, th{
+        background-color: white;
+    }
+</style>
+</html>

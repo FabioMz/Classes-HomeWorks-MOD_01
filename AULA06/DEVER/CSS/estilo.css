@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#corpo {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header, #main_sect, footer {
+    width: 900px;
+    margin: 50px auto;
+    border-radius: 30px;
+    background-color: whitesmoke !important;
+}
+
+#main_sect {
+    height: 305px;
+}
+
+#head-title {
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+td{
+    font-size: 35px;
+    text-align: center;
+    border: 1px solid lightgray
+}
+
+th {
+    font-size: 40px;
+}
+
+.othermonth {
+    color: rgb(189, 188, 188);
+}
+
+.dom {
+    font-weight: bolder;
+}
+
+.hld1 {
+    border-radius: 45px;
+    background-color: red;
+    opacity: 0.8;
+}
+
+.hld2 {
+    border-radius: 45px;
+    background-color: lightgray;
+    opacity: 0.8;
+}
+
+.span1 {
+    border-radius: 20px;
+    background-color: red;
+    opacity: 0.8;
+}
+
+.span2 {
+    border-radius: 20px;
+    background-color: lightgray;
+    opacity: 0.8;
+}
+
+
+
+table {
+    width: 90%;
+    height: 60%;
+    margin: auto;
+    font-size: 35px;  
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 70px;
+}
+

@@ -1,0 +1,14 @@
+.nav-verde{
+    background-color: lime;
+    color: white;
+    text-shadow: 1px 1px gray;
+}
+
+.nav-verde a {
+    color: white;
+}
+
+.nav-verde a:hover {
+    color: white;
+    font-size: 1.2em;
+}

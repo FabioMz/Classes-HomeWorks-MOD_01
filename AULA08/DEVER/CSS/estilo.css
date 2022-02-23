@@ -1,0 +1,86 @@
+/* FMZ Navbar */
+
+.fmz {
+    width: 150px;
+    padding-bottom: 5px;
+}
+
+.fmz-navbar, .fmz-container-fluid, .btn-fmz {
+    font-size: larger;
+    font-family: 'Prompt', sans-serif;
+}
+
+.fmz-nav-link {
+    color: #C7C8C9;
+    padding-top: 25px;
+}
+
+.fmz-nav-item a:hover, .navbar-dark a:hover {
+    color: #FDFD00 !important;
+}
+
+.btn-fmz {
+    border-color: black;
+    background-color:  #FDFD00;
+}
+
+/* Bullseye Navbar */
+
+.bseye {
+    width: 150px;
+}
+
+.navbar-bulls {
+    background-color: crimson;
+}
+
+.form-bulls {
+    width: 100%;
+}
+
+.btn-bulls {
+    width: 115px;
+    font-family: arial;
+    font-size: medium;
+    font-weight: bold;
+    border-color: whitesmoke;
+}
+
+/* Boxmail Navbar */
+
+.box-navbar {
+    background-color: rgb(157, 224, 226);
+}
+
+.box-navbar-brand {
+    font-weight: bold;
+    font-family: 'Comfortaa';
+}
+
+.fa-box {
+    color: navy;
+    font-size: 30px;
+}
+
+.box-logo-dtq {
+    font-size: larger;
+    font-family: impact;
+    font-weight: lighter;
+}
+
+.fas {
+    font-size: larger;
+}
+
+.dropdown-menu {
+    background-color: cadetblue;
+}
+
+.box-btn {
+    width: 140px;
+    background-color: navy;
+}
+
+.badge {
+    font-size: 9px;
+}

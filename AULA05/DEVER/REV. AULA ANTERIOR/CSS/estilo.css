@@ -1,0 +1,54 @@
+#topo{
+    text-align: center;
+}
+
+#topo, nav, #principal, footer {
+    background-color: white !important;
+}
+
+#logoTopo{
+    height: 150px;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+#corpo{
+    width: 900px;
+    margin: 0 auto;
+}
+
+nav a { /* nav > a { */
+    font-weight: bolder;
+    text-decoration: none;
+    color: blue;
+}
+
+nav a:visited{
+    color: blue;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-size: 1.2em; /* em = refere-se ao tamanho padrão atual da fonte*/
+}
+
+nav{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.personagens{
+    float: left;
+    width: 33.333%;
+    text-align: center;
+}
+
+.personagens img {
+    height: 100px;
+}
+
+footer{
+    background-color: orange;
+}

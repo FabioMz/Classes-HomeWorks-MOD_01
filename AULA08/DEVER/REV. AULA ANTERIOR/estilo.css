@@ -1,0 +1,40 @@
+body{
+    background-color: lightgray;
+}
+
+body div{
+    width: 900px;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+header{
+    height: 100px;
+    background-color: lightgreen;
+}
+
+#blocos{
+    background-color: lightsalmon;
+    display: grid;
+    grid-template-columns: 40% 40% auto ;
+    row-gap: 5px;
+    column-gap: 5px;
+    padding: 5px;
+}
+
+#blocos article{
+    padding: 10px;
+    background-color: lightseagreen;
+}
+
+.bloco-destaque{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+footer{
+    height: 100px;
+    background-color: lightskyblue;
+}

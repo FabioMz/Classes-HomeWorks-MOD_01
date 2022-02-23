@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-image: url(https://i.pinimg.com/originals/64/d4/1c/64d41ce459836f9916f3839de48768fe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 45px;
+    padding: 15px;
+    padding-bottom: 0px;
+    color: snow;
+    text-align: center;
+    font-weight: bolder;
+    font-family: papyrus;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 35px;
+    color: snow;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: papyrus;
+    background-color: black;
+    opacity: 0.5;
+}
+
+h4 {
+    font-size: 40px;
+    color: snow;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bolder;
+    font-family: papyrus;
+    background-color: orangered;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 35px;
+    opacity: 0.6;
+    
+}
+
+#IC {
+    width: 150px;
+    display: block;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.PIC {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.fa-motorcycle {
+    padding-top: 8px;
+    padding-right: 5px;
+}
+
+nav {
+    background-color: snow;
+    opacity: 0.2;
+}
+
+nav > a {
+    font-size: 30px;
+    color: black;
+    padding: 5px 90px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+    display: inline-flex;
+    text-decoration: none;
+    font-family: papyrus;
+}
+
+nav > a:hover {
+    background-color: snow;
+    opacity: 0.4;
+}
+
+#CTR_NAV {
+    font-size: 35px;
+    color: snow;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: papyrus;
+    background-color: black;
+    opacity: 0.8 ;
+}
+
+#PRICE {
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    background-color: orangered;
+    border-radius: 10px;
+    opacity: 0.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#CARD {
+    width: 100%;
+    height: 100%;
+}
+
+.X {
+    display: block;
+    float: left;
+    width: 33.33%;
+    padding-left: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.X > a:hover {
+    background-color: snow;
+    opacity: 0.6;
+}
+
+.BACON {
+    clear: left;
+}
+
+ul {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: serif;
+    list-style-type: none;
+}
+
+ul > li > a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer {
+    background-color: snow;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.4;
+    width: 100%;
+    float: left;
+}
