@@ -1,0 +1,8 @@
+DEVER DE CASA
+
+=============
+
+Crie uma página que possua uma barra de navegação que esteja abaixo do topo do site, mas que cole no topo ao rolar a tela.
+Coloque um aviso na parte de baixo do site, com uma cor forte para destacar.
+Sobre esse aviso, coloque um botão à sua direita com a palavra FECHAR.
+O SITE DEVERÁ TER TEMA LIVRE!

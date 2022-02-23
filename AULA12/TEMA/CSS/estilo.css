@@ -1,0 +1,38 @@
+div {
+    width: 350px;
+    height: 350px;
+}
+
+#div1 {
+    background-color: black;
+    background-image: url("../IMG/BG/matrix.jpg");
+    background-size: 350px 350px;
+}
+
+#div2 {
+    background-color: black;
+    background-image: url("../IMG/BG/matrix2.jpg");
+    background-size: 100px 100px; /*cover = 100% 100%*/
+    background-repeat: repeat-x;
+    /* background-repeat: repeat-y; */
+    /* background-repeat: no-repeat; */
+}
+
+#div3 {
+    background-image: url("../IMG/BG/matrix.jpg");
+    background-position: center;
+}
+
+#div4 {
+background-image: linear-gradient(lightgray 5%, black, red);
+/*----- Porcentagem inversamente proporcional ^ -----*/
+}
+
+#div5 {
+    background-image: linear-gradient( to right, lightgray 5%, black, red);
+    /*----- Porcentagem inversamente proporcional ^ -----*/
+    }
+
+#div6 {
+    background-image: radial-gradient(red, black);
+    }

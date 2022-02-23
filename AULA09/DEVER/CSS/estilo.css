@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-size: 20px;
+    margin-left: 15%;
+    color: navy;
+}
+
+#subtitulo {
+    color: navy;
+    margin-left: 10%;
+    margin-bottom: 6%;
+}
+
+fieldset {
+    padding: 1rem ;
+    padding-bottom: 2rem;
+    border-radius: 1rem ;
+    border-color: navy;
+}
+
+.tec-dev {
+    border-color: transparent;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1em;
+    color: navy;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+
+input, select, textarea {
+    border-radius: 5px;
+}
+
+.grupo {
+    margin-top: 2%;
+}
+
+.legenda {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.l4 {
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+
+.campo {
+    margin-top: 2%;
+}
+
+.marcador {
+    margin-top: 1%;
+}
+
+/* Posicionamento dos elementos em Grid */
+
+.grupo {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 5px;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    justify-content: space-around; 
+}
+
+/* Info. Pes */
+
+.nome {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.sobrenome {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.data {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end:2;
+}
+
+/* Contatos */
+
+.email {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.github {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.tel {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end:2;
+}
+
+/* Info. Dev */
+
+.info-dev {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 5px;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around; 
+}
+
+.area {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 5px;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around; 
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end:4;
+}
+
+.tec-dev {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 5px;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    justify-content: space-around;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end:4;
+}
+
+.senior {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end:3;
+}
+
+#texto {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end:3;
+}
+
+/* Botões */
+
+.bots {
+    border-color: transparent;
+    justify-content: space-between;
+}
+
+.botao {
+    color: navy;    
+    padding: 15px; 
+    font-size: 1em;
+    font-weight: bold;
+    border-color: navy;    
+    border-radius: 15px;
+    background-color: rgb(212, 211, 211);    
+    font-family: 'Orbitron', sans-serif;
+}
+
+.botao:hover {
+    background-color: #5B9FDE;
+}
+
+

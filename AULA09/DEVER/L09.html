@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/estilo.css">
+
+    <title>Cadastro do Desenvolvedor</title>
+</head>
+
+<body>
+
+    <div id="cabeça"> <!-- Cabeçalho da Página -->
+       
+
+        <div id="titulo">
+            <h1>Cadastro do Desenvolvedor</h1>
+        </div>
+
+        <div id="subtitulo">
+            <p>Preencha os campos a seguir com suas informações.</p>
+        </div>
+
+    </div> <!-- FIM. -->
+
+    <div id="corpo">
+
+        <form>
+
+            <fieldset class="grupo info-pes"> <!-- Field Info. Pessoa -->
+               
+
+                <legend class="legenda l1"><u><strong>Informações Pessoais</strong></u></legend>
+
+                <div class="campo nome">
+                    <label for="nome"><strong>Nome:</strong></label>
+                    <input type="text" name="nome" id="nome" autofocus required> <small>*</small>
+                </div>
+
+                <div class="campo sobrenome">
+                    <label for="sobrenome"><strong>Sobrenome:</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required> <small>*</small>
+                </div>
+
+                <div class="campo data">
+                    <label for="nascimento"><strong>Data de Nascimento:</strong></label>
+                    <input type="date" name="nascimento" id="nascimento"> <small><i>(opcional)</i></small>
+                </div>
+
+            </fieldset> <!-- FIM. -->
+
+            <fieldset class="grupo contat"> <!-- Field Contatos -->
+               
+
+                <legend class="legenda l2"><u><strong>Contatos</strong></u></legend>
+
+                <div class="campo email">
+                    <label for="email"><strong>Email:</strong></label>
+                    <input type="email" name="email" id="email" required> <small>*</small>
+                </div>
+
+                <div class="campo github">
+                    <label for="github"><strong>Github:</strong></label>
+                    <input type="url" name="github" id="github" placeholder="https://github.com/">
+                    <small><i>(opcional)</i></small>
+                </div>
+
+                <div class="campo tel">
+                    <label for="tel"><strong>Telefone:</strong></label>
+                    <input type="tel" name="tel" id="tel" maxlength="11" placeholder=" 21 9 9999-9999">
+                    <small><i>(opcional)</i></small>
+                </div>
+
+    </div>
+
+    </fieldset> <!-- FIM. -->
+
+    <fieldset class="grupo info-dev"> <!-- Field Info. DEV. -->
+       
+
+        <legend class="legenda l3"><u><strong>Área de Desenvolvimento</strong></u></legend>
+
+        <div class="marcador area"> <!-- Area DEV. -->
+           
+
+            <div>
+                <input type="radio" id="frontend" name="devarea" value="frontend" checked>
+                <label for="frontend"><strong>Front-End</strong></label>
+            </div>
+
+            <div>
+                <input type="radio" id="backend" name="devarea" value="backend">
+                <label for="backend"><strong>Back-End</strong></label>
+            </div>
+
+            <div>
+                <input type="radio" id="fullstack" name="devarea" value="fullstack">
+                <label for="fullstack"><strong>Fullstack</strong></label>
+            </div>
+
+        </div>
+
+        <fieldset class="grupo tec-dev"> <!-- Tec. DEV. -->
+           
+
+            <legend class="legenda l4"><u><strong>Tecnologias Dominadas</strong></u></legend>
+
+            <div class="marc tec1">
+                <input type="checkbox" id="tec1" name="tec1" value="html">
+                <label for="tec1"><strong>HTML</strong></label>
+            </div>
+
+            <div class="marc tec2">
+                <input type="checkbox" id="tec2" name="tec2" value="css">
+                <label for="tec2"><strong>CSS</strong></label>
+            </div>
+
+            <div class="marc tec3">
+                <input type="checkbox" id="tec3" name="tec3" value="javascript">
+                <label for="tec3"><strong>Javascript</strong></label>
+            </div>
+
+            <div class="marc tec4">
+                <input type="checkbox" id="tec4" name="tec4" value="php">
+                <label for="tec4"><strong>PHP</strong></label>
+            </div>
+
+            <div class="marc tec5">
+                <input type="checkbox" id="tec5" name="tec5" value="c#">
+                <label for="tec5"><strong>C#</strong></label>
+            </div>
+
+            <div class="marc tec6">
+                <input type="checkbox" id="tec6" name="tec6" value="python">
+                <label for="tec6"><strong>Python</strong></label>
+            </div>
+
+            <div class="marc tec7">
+                <input type="checkbox" id="tec7" name="tec7" value="java">
+                <label for="tec7"><strong>Java</strong></label>
+            </div>
+
+        </fieldset> <!-- FIM. -->
+
+        <div class="marcador senior"> <!-- Senioridade -->
+           
+
+            <label for="senioridade"><strong>Senioridade</strong></label>
+            <select name="senioridade">
+
+                <option value="0" selected disabled>-Selecione-</option>
+                <option value="jr">Junior</option>
+                <option value="pl">Pleno</option>
+                <option value="sr">Senior</option>
+
+            </select>
+
+        </div>
+
+        <div id="texto"> <!-- Text. Exp. -->
+           
+
+            <label for="exp"><strong>Conte um pouco mais sobre a sua experiência:</strong></label><br />
+            <textarea name="exp" id="exp" cols="80" rows="6"
+                placeholder="Possuo experiências com..."></textarea><br /><small><i>(opcional)</i></small>
+
+        </div>
+
+    </fieldset> <!-- FIM. -->
+
+    <fieldset class="grupo pass"> <!-- Field Senha -->
+       
+
+        <legend class="legenda l5"><u><strong>Defina sua senha</strong></u></legend>
+
+        <div class="campo senha">
+            <label for="senha"><strong>Senha:</strong></label>
+            <input type="password" name="senha" id="senha" required /> <small>*</small><br />
+
+        </div>
+
+        <div class="campo conf-senha">
+            <label for="confsenha"><strong>Confirmar senha:</strong></label>
+            <input type="password" name="confsenha" required /> <small>*</small>
+        </div>
+
+        <div id="exib">
+            <input type="checkbox" name="chksenha" /> Exibir Senha
+        </div>
+
+    </fieldset> <!-- FIM. -->
+
+
+    <!---------------------------------------- Botões ------------------------------------------>
+
+    <fieldset class="grupo bots">
+
+        <div>
+            <input class="botao concluido" type="submit" name="concluido" value="Concluído">
+        </div>
+
+        <div>
+            <input class="botao limpar" type="reset" name="limpar" value="Limpar">
+        </div>
+
+    </fieldset>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+﻿Avaliação, projeto HTML5 e CSS3
+===============================
+
+Entrega dia 14/02/2022
+
+Material entregue:
+    -Pasta do projeto com os arquivos html e css, mais o que for necessário para o funcionamento (imagens, etc.);
+    -Vídeo de até 5 minutos apresentando o site funcionando.
+
+Requisitos mínimos: Layout CSS (com ou sem Bootstrap)
+
+
+========================================TEMAS========================================
+
+    -ACADEMIA
+        -Home 
+        -Atividades
+        -Pré-Matrícula (form pegando os dados do aluno)
+        -Contatos (form com nome, telefone e mesnagem - text-area // Mapa do local);
+
+    -Hotel
+        -Home
+        -Acomodações
+        -Reservas (form pegando os dados do aluno)
+        -Contatos(form com nome, telefone e mesnagem - text-area // Mapa do local);
+
+    -Clínica Médica
+        -Home
+        -Especialidades
+        -Agendamento de Consulta (form pegando os dados do aluno)
+        -Contatos (form com nome, telefone e mesnagem - text-area // Mapa do local)
+
+=====================================================================================
+
+programas de gravação
+Xbox Game Bar (WinKey +G)
+OBS Studio (open-source)

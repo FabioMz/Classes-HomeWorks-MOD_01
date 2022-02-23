@@ -1,0 +1,8 @@
+DEVER DE CASA
+=============
+
+Crie uma página usando um layout com 4 divs em 2 linhas com 2 divs cada.
+
+Aplique background-image no Body e nas divs.
+
+NÃO É IMPORTANTE FICAR BONITO, MAS USAR OS RECURSOS.

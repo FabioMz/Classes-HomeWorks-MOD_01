@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./IMG/gif_bg.gif");
+}
+
+hr {
+    color: transparent;
+}
+
+.row {
+    justify-content: space-evenly;
+}
+
+.img {
+    width: 350px;
+    height: 350px;
+}
+
+.div_1 {
+    background-image: url("./IMG/gif_1.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+.div_2 {
+    background-image: url("./IMG/gif_0.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+.div_3 {
+    background-image: url("./IMG/gif_3.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+.div_4 {
+    background-image: url("./IMG/gif_2.gif");
+    background-position: center;
+    background-size: cover;
+}

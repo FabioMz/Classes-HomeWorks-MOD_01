@@ -1,0 +1,325 @@
+/* GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* GERAL */
+
+/* HEADERS / NAVBAR */
+.banner {
+    background-size: cover;
+    background-image: url("../IMG/BG/vitrine-desktop.jpg");
+}
+
+.banner-tecl {
+    background-size: cover;
+    background-image: url("../IMG/BG/bg-teclado-piano.jpg");
+}
+
+.banner-viol {
+    background-size: cover;
+    background-image: url("../IMG/BG/bg-violao-guitarra.jpg");
+}
+
+.banner-cant {
+    background-size: cover;
+    background-image: url("../IMG/BG/bg-canto.jpg");
+}
+
+.banner-baix {
+    background-size: cover;
+    background-image: url("../IMG/BG/bg-baixo.jpg");
+}
+
+.banner-bater {
+    background-size: cover;
+    background-image: url("../IMG/BG/bg-bateria.jpg");
+}
+
+.banner-cord {
+    background-size: cover;
+    background-image: url("../IMG/BG/bg-cordas.jpg");
+}
+
+.banner-aud {
+    background-size: cover;
+    background-image: url("../IMG/BG/bg-audio.jpg");
+}
+
+.banner-teor {
+    background-size: cover;
+    background-image: url("../IMG/BG/bg-teoria.jpg");
+}
+
+.banner-sopr {
+    background-size: cover;
+    background-image: url("../IMG/BG/bg-sopro.jpg");
+}
+
+.banner-perc {
+    background-size: cover;
+    background-image: url("../IMG/BG/bg-percussao.jpg");
+}
+
+.center-cont {
+    margin-left: 12.5%;
+    margin-right: 12.5%;    
+    padding-right: 30px;
+    padding-left: 30px;
+    align-items: center;
+    -webkit-box-align: center;
+}
+
+.cab {   
+    color: #FFFFFF;
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.cont-cab1 {
+    margin-bottom: 1%;
+}
+
+.cont-cab2 {
+    margin-top: 1%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.t-01 {
+    color: #E93D50;
+    padding-top: 16px;
+}
+
+.t-03 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.bold {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#logo-music-dot{
+    height: 40px;
+}
+
+.navbar-brand {
+    padding-bottom: 16px;
+}
+
+.nav-link,.navbar-dot {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.nav-link:hover {
+    color: #E93D50 !important;
+    font-weight: 700;
+}
+
+.btn-matr:hover {
+    padding: 10px 12px;
+    background-color: #9e1926;
+}
+
+.dropdown-menu {
+    border: 1px solid #EE534E;
+    background-color: #2c2727e3;
+}
+
+.dropdown-item {
+    color: #FFFFFF;
+}
+
+.dropdown-item:hover {
+    color: #EE534E;
+    background-color: #2c272700;
+}
+
+/* HEADERS / NAVBAR */
+
+/* CORPO DA PÁG. */
+.cursos {
+    margin-top: 6%;
+    padding: 0;
+}
+
+.form-label, .form-check-label {
+    color: #FFFFFF;
+}
+
+.form-check {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.btn-submit {
+    padding-left: 0px;
+}
+
+.list-item {
+    max-width: 220px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #EE534E;
+    margin: 5px;
+    padding: 30px;
+    height: 176px;
+}
+
+.list-item:hover {
+    color: #FFFFFF;
+    height: 172px;
+    text-decoration: none;
+    background-color: #676c755d;
+}
+
+.ico {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.ico-1 {
+    margin-top: 16px;
+}
+
+.pag-ico {
+    width: 150px;
+}
+
+.pag-ico-cant {
+    width: 110px;
+}
+
+.tipo-curso {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.title-pag, .text-pag {
+    color: #FFFFFF;
+}
+
+#iframe-map {
+    border-radius: 8px;
+    border: 1px solid #EE534E;
+}
+
+/* CORPO DA PÁG. */
+
+/* RODAPE DA PÁG. */
+footer {
+    background-image: url("../IMG/BG/bg-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top: 1px solid #FFFFFF;
+    height: max-content;
+}
+
+.rodape {
+    justify-content: space-between;
+}
+
+.foot-left, .foot-right {
+    margin-top: 2%;
+}
+
+.foot-right {
+    margin-right: 20.5%;    
+}
+
+.foot-ico-link {
+    text-decoration: none;
+}
+
+.foot-ico-link > .bi:hover {
+    color: #E93D50;
+}
+
+.bi, .bi-arrow-down-circle-fill {
+    width: 40px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+#foot-adress {
+    padding: 0;
+    margin-top: 10px;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+/* RODAPE DA PÁG. */
+
+/* MEDIAS */
+@media only screen and (min-width: 1440px) {
+    .banner {
+        height: 923px;
+    }
+}
+@media only screen and (min-width: 1441px) {
+    .banner {
+        background-size: cover;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .banner {
+        background-position-x: 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .banner {
+        background-image: url("../IMG/BG/vitrine-desktop.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .t-01, .t-02 {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .t-01, .t-02, .t-03 {
+        text-align: center;
+    }
+    .t-03 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .navbar-brand {
+        margin-right: 0.5rem;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .navbar-brand, .navbar-toggler {
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 560px) {
+    footer {
+        background-repeat: repeat-y;
+        background-position-y: 0vmax;
+    }
+}
+@media only screen and (width: 280px) {
+    .center-cont {
+        margin-left: 10%;  
+    }
+    .list-item {
+        margin-left: 5%;
+    }
+}
+/* MEDIAS */

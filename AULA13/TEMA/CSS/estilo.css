@@ -1,0 +1,48 @@
+body {
+    background-color: whitesmoke;
+}
+
+div {
+    height: 250px;
+    background-color: darkslategray;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+#estatica {
+    background-color: firebrick;
+    border: 10px solid red;
+}
+
+#sticky {
+    position: sticky;
+    position: -webkit-sticky; /*Tratando compatibilidade de navegadores*/
+    top: 0;
+    padding: 20px;
+    height: 250px !important;
+    border: 10px solid green;
+    background-color: yellowgreen!important;
+}
+
+#absoluta {
+    background-color: rgba(0, 0, 0, 0.664);
+    position: absolute;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 80px;
+    height: 25px;
+    top: 100px;
+    right: 20px;
+
+}
+
+#fixa {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+    border: 5px solid royalblue;
+}
